@@ -20,11 +20,18 @@ const CustomHelmet = () => (
           content="https://images.unsplash.com/photo-1541696490-8744a5dc0228?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=80"/>
 
     <meta property="twitter:card" content="summary_large_image"/>
+    <meta name="twitter:card" content="summary_large_image"/>
     <meta property="twitter:url" content="https://bobati.me/"/>
+    <meta name="twitter:url" content="https://bobati.me/"/>
     <meta property="twitter:title" content="Bobatime - The First Boba Oriented Social Media App"/>
+    <meta name="twitter:title" content="Bobatime - The First Boba Oriented Social Media App"/>
     <meta property="twitter:description"
           content="Explore and connect with local boba enthusiasts while supporting local boba shops. "/>
     <meta property="twitter:image"
+          content="https://images.unsplash.com/photo-1541696490-8744a5dc0228?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=80"/>
+    <meta name="twitter:description"
+          content="Explore and connect with local boba enthusiasts while supporting local boba shops. "/>
+    <meta name="twitter:image"
           content="https://images.unsplash.com/photo-1541696490-8744a5dc0228?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=80"/>
   </Helmet>
 )
