@@ -380,8 +380,11 @@ const Header = ({ isDark = false }) => {
               onClick={gContext.toggleOffCanvas}
               dark={isDark ? 1 : 0}
             >
-              {/* <i className="icon icon-simple-remove icon-close"></i> */}
-              <i className="icon icon-menu-34 icon-burger d-block"></i>
+              <svg viewBox="0 0 100 80" width="20" height="30">
+                <rect width="100" height="20" rx="8"/>
+                <rect y="30" width="100" height="20" rx="8"/>
+                <rect y="60" width="100" height="20" rx="8"/>
+              </svg>
             </ToggleButton>
           </nav>
         </Container>

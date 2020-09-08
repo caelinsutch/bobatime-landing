@@ -13,9 +13,8 @@ import {
 
 import { device } from "../utils";
 
-import iphoneMockup from "../assets/image/phoneMockup.svg";
+import iphoneMockup from "../assets/image/phone-mockup.png";
 import ConvertKitForm from "convertkit-react";
-import theme from "../utils/theme";
 
 const ImgRight = styled(Box)`
   @media ${device.sm} {
