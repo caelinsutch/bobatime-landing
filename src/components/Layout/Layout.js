@@ -13,8 +13,6 @@ import AOS from "aos";
 import Header from "../Header";
 import Footer from "../Footer";
 
-import ModalVideo from "../ModalVideo";
-
 import GlobalContext from "../../context/GlobalContext";
 
 import GlobalStyle from "../../utils/globalStyle";
@@ -134,8 +132,6 @@ const Layout = ({ children, pageContext }) => {
         <div className="site-wrapper overflow-hidden" ref={eleRef}>
           {children}
         </div>
-
-        <ModalVideo />
       </ThemeProvider>
     );
   }
@@ -149,7 +145,7 @@ const Layout = ({ children, pageContext }) => {
       >
         <GlobalStyle />
         <Helmet>
-          <title>Omega</title>
+          <title>BobaTime</title>
           <link rel="icon" type="image/png" href={imgFavicon} />
         </Helmet>
         <Loader id="loading" className={visibleLoader ? "" : "inActive"}>
@@ -164,7 +160,6 @@ const Layout = ({ children, pageContext }) => {
           <Footer isDark={gContext.footerDark} />
         </div>
 
-        <ModalVideo />
       </ThemeProvider>
     </>
   );

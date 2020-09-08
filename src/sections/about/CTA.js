@@ -4,7 +4,6 @@ import { Container, Row, Col } from "react-bootstrap";
 
 import { Title, Button, Section, Box, Text } from "../../components/Core";
 
-import imgOval from "../../assets/image/png/l1-cta-oval.png";
 import svgCurve from "../../assets/image/svg/l1-curve-cta.svg";
 
 const LeftCard = styled(Box)`
@@ -28,7 +27,7 @@ const CTA = () => (
         data-aos-duration="750"
         data-aos-once="true"
       >
-        <img src={imgOval} alt="" className="img-fluid" />
+        {/*<img src={imgOval} alt="" className="img-fluid" />*/}
       </LeftCard>
       <RightCard>
         <img src={svgCurve} alt="" className="img-fluid" />
@@ -39,12 +38,13 @@ const CTA = () => (
             <Box mb={5} className="text-center">
               <Title color="light">Want to join?</Title>
               <Text color="light" opacity={0.7}>
-                Are you interested to join our team? Check out our job openings
-                and apply on your suitable role.
+                Are you interested to join our team? Contact us and learn more about openings in the Bobatime team
               </Text>
             </Box>
             <Box>
-              <Button>Check Job Openings</Button>
+              <Button color="light">
+                <a href="mailto:caelinsutch@gmail.com">Check Job Openings</a>
+                </Button>
             </Box>
           </Col>
         </Row>
