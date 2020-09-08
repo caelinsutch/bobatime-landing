@@ -48,6 +48,7 @@ import { get, merge } from "lodash";
 
 // the full theme object
 import { theme as baseTheme } from "../../utils";
+import CustomHelmet from "./CustomHelmet";
 
 const Loader = styled.div`
   position: fixed;
@@ -120,10 +121,7 @@ const Layout = ({ children, pageContext }) => {
         }
       >
         <GlobalStyle />
-        <Helmet>
-          <title>Omega</title>
-          <link rel="icon" type="image/png" href={imgFavicon} />
-        </Helmet>
+        <CustomHelmet/>
         <Loader id="loading" className={visibleLoader ? "" : "inActive"}>
           <div className="load-circle">
             <span className="one"></span>
@@ -144,10 +142,7 @@ const Layout = ({ children, pageContext }) => {
         }
       >
         <GlobalStyle />
-        <Helmet>
-          <title>BobaTime</title>
-          <link rel="icon" type="image/png" href={imgFavicon} />
-        </Helmet>
+        <CustomHelmet/>
         <Loader id="loading" className={visibleLoader ? "" : "inActive"}>
           <div className="load-circle">
             <span className="one"></span>
